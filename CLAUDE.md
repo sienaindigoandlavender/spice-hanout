@@ -16,6 +16,11 @@ Jacqueline's spice house (3 Nov 2026): spice blends only, not a many-SKU grocery
 - Colour, yes, but restrained: **each blend has one colour, the colour of the spice itself**, as a full field on its label with a faint grain. Nothing else decorates the label: no patterns, no illustrations (the Zfriti labels were too much). The home page's band of colours is the day, in order.
 - House rules: text never light grey (ink at full strength, smaller never paler); square corners; underline fields; no visible scrollbars; images can't be saved (`PhotoGuard`).
 
+## Labels and the shop's look (3 Nov 2026)
+- The label (`components/Label.tsx`): one field in the spice's colour with grain, a hairline frame, "Spice Hanout" and the hour mark (`HourMark.tsx`: the sun over a horizon, low left morning, high midday, crescent evening) at the top, Arabic and the name in Bodoni at the bottom, hour · Marrakech · weight under a rule. Type scales with the label's width (container units). The back (`face="back"`) is bone: inside, use, weight, hour, No. and Best before written by hand, care line, spicehanout.com.
+- `/labels` (unlinked, noindex): every front and back at real size, 70 × 93 mm, print at 100% on A4.
+- `Tin.tsx` puts the label on a brushed tin. The home opens on `HourHero.tsx`: the sky and the three tins of the hour it is in Marrakech (UTC), and the visitor can walk the day (Morning, Midday, Evening). Each hour's section has its own air (pale gold, bone, dusk).
+
 ## Shelf and prices (3 Nov 2026)
 - 10 blends + the box "A Whole Day" (Golden Hour, Ras el Hanout, Sweet Tagine), all ACTIVE and published to the Headless channel in Shopify (MAD).
 - Prices copied from Zfriti's tin ladder (`zfriti/lib/blend-notes.ts`): ground blend 50 g 75 DH, herb 70 DH, dear ingredients (cardamom, rose, saffron pinch) 95 DH, saffron 1 g 95 DH, the box 240 DH. Change prices in Shopify only.
