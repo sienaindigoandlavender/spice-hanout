@@ -44,8 +44,20 @@ const toBlend = (w: WorldBlend, region: string): Blend => {
     image: SHOTS[w.slug],
     origin: w.origin,
     region,
+    uses: USES.filter((u) => u.re.test(`${w.name} ${w.line} ${note.use} ${u.key === "hot" ? w.ingredients.split(",").slice(0, 3).join(" ") : w.ingredients}`.toLowerCase())).map((u) => u.key),
   };
 };
+
+/** Shop by use (after Spicewalla's "by use" shelves): read from the name, line, use and recipe. */
+export const USES = [
+  { key: "grill", label: "Grill and fire", re: /grill|bbq|barbecue|skewer|kebab|steak|\brub\b|suya|jerk|satay|shawarma|kefta|k\u00f6fte|tandoori|pinchitos|chops|coals/ },
+  { key: "slow", label: "Slow pots", re: /stew|slow|braise|tagine|curry|soup|goulash|rendang|mole|chili con|wat\b|broth|biryani|pilau|couscous|dal\b|pot\b/ },
+  { key: "sweet", label: "Sweet things and drinks", re: /sweet|dessert|cake|biscuit|\bpie\b|speculoos|pain d|maple|chai|coffee|mulled|compote|waffle|tea\b/ },
+  { key: "hot", label: "With heat", re: /chilli|chili|cayenne|harissa|mitmita|scotch bonnet|mala|vindaloo|\bhot\b|berb\u00e9r\u00e9|awaze|merk\u00e9n|gochugaru|bird/ },
+  { key: "fish", label: "Fish and vegetables", re: /fish|seafood|sardine|salmon|prawn|shrimp|vegetable|potato|cauliflower|aubergine|bean|lentil/ },
+  { key: "table", label: "On the table", re: /sprinkle|finish|dip|bread|salt\b|eggs|salad|furikake|dukkah|za'atar|shake/ },
+] as const;
+export type UseKey = (typeof USES)[number]["key"];
 
 export const WORLD_REGIONS = REGIONS.map((r) => ({
   slug: r.slug,

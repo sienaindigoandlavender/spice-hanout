@@ -26,6 +26,12 @@ Jacqueline's spice house (3 Nov 2026): spice blends only, not a many-SKU grocery
 - All 92 are Shopify products (handle = slug, ACTIVE, Headless, picture attached), priced on Zfriti's tiers: ground 50 g 75 DH, whole/herb 35 g 70 DH, dear 50 g 95 DH, saffron-led 40 g 120 DH.
 - `/world` lists them by region (`WorldCard.tsx`: picture, colour strip, name, origin, price); product pages show the picture with the tin and the back label beside it. The hour mark for a world blend is guessed from what it is for (`momentOf`).
 
+## Help, small print and shop features (3 Nov 2026)
+- Footer (`Footer.tsx`): Shop, Read, Help (shipping and taxes, returns, questions, wholesale, gifts and weddings, contact), Small print (privacy, terms). Pages `/about`, `/shipping`, `/returns`, `/faq`, `/privacy`, `/terms`, `/contact` share `components/Prose.tsx`. Seller details in `lib/company.ts` (legal name, RC, ICE, address empty until the company exists; empty fields are hidden).
+- Shipping/returns policy mirrors Zfriti's (Morocco only, delivery shown at checkout, prices TTC in DH, no returns for change of mind, our mistakes replaced or refunded on a photo within 48 h). Jacqueline to confirm.
+- `/contact`: underline form (`ContactForm.tsx`, `?topic=` preselects) → `/api/contact` → Resend (`RESEND_API_KEY`, `CONTACT_TO`, `CONTACT_FROM`); without the key messages are only logged.
+- From Spicewalla (Jacqueline asked for the good parts): shop by use + search on `/world` (`WorldBrowser.tsx`, `USES` in `lib/world.ts`), price per 100 g on product pages, a note on the basket (sent as the Shopify cart note), wholesale and gifts paths, the monthly letter band (`Letters.tsx` → `/api/newsletter` → Shopify customer with email marketing).
+
 ## Shelf and prices (3 Nov 2026)
 - 10 blends + the box "A Whole Day" (Golden Hour, Ras el Hanout, Sweet Tagine), all ACTIVE and published to the Headless channel in Shopify (MAD).
 - Prices copied from Zfriti's tin ladder (`zfriti/lib/blend-notes.ts`): ground blend 50 g 75 DH, herb 70 DH, dear ingredients (cardamom, rose, saffron pinch) 95 DH, saffron 1 g 95 DH, the box 240 DH. Change prices in Shopify only.

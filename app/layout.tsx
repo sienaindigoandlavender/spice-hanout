@@ -5,6 +5,7 @@ import "@fontsource/dm-mono/400.css";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Letters from "@/components/Letters";
 import PhotoGuard from "@/components/PhotoGuard";
 import { BasketProvider } from "@/components/Basket";
 
@@ -25,6 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <PhotoGuard />
           <Header />
           <main>{children}</main>
+          <Letters />
           <Footer />
         </BasketProvider>
       </body>

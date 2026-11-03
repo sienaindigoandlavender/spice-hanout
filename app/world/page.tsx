@@ -1,15 +1,13 @@
 import type { Metadata } from "next";
-import { WORLD, WORLD_REGIONS } from "@/lib/world";
+import { WORLD, WORLD_REGIONS, USES } from "@/lib/world";
 import { offers } from "@/lib/shopify";
-import WorldCard from "@/components/WorldCard";
+import WorldBrowser from "@/components/WorldBrowser";
 
 export const revalidate = 300;
 export const metadata: Metadata = {
   title: "The world's blends",
   description: "Ninety blends from the Maghreb to Montréal, ground in Marrakech: baharat, garam masala, berbéré, jerk, five-spice, herbes de Provence and more.",
 };
-
-const BG = ["#F4F0E8", "#EBE5D9"];
 
 export default async function World() {
   const o = await offers(WORLD.map((b) => b.handle));
@@ -30,19 +28,7 @@ export default async function World() {
         </nav>
       </section>
 
-      {WORLD_REGIONS.map((r, i) => (
-        <section key={r.slug} id={r.slug} className="scroll-mt-16" style={{ background: BG[i % 2] }}>
-          <div className="mx-auto max-w-[1400px] px-4 py-20 md:px-10 md:py-28">
-            <div className="grid gap-4 border-b border-ink pb-8 md:grid-cols-12 md:items-end">
-              <h2 className="font-display text-[48px] leading-[0.92] md:col-span-6 md:text-[80px]"><em>{r.name}</em></h2>
-              <p className="text-[17px] leading-[1.55] md:col-span-5 md:col-start-8">{r.intro}</p>
-            </div>
-            <div className="mt-14 grid grid-cols-1 gap-x-6 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
-              {r.blends.map((b) => <WorldCard key={b.handle} b={b} price={o[b.handle]?.price} />)}
-            </div>
-          </div>
-        </section>
-      ))}
+      <WorldBrowser regions={WORLD_REGIONS} uses={USES.map((u) => ({ key: u.key, label: u.label }))} prices={Object.fromEntries(Object.entries(o).map(([h, v]) => [h, v.price]))} />
     </>
   );
 }

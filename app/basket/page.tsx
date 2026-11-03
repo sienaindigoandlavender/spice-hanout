@@ -9,11 +9,12 @@ export default function BasketPage() {
   const { lines, set } = useBasket();
   const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState("");
+  const [note, setNote] = useState("");
   const items = lines.map((l) => ({ ...l, b: SHELF.find((x) => x.handle === l.handle) })).filter((x) => x.b);
 
   async function checkout() {
     setBusy(true); setMsg("");
-    const r = await fetch("/api/checkout", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ lines }) });
+    const r = await fetch("/api/checkout", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ lines, note }) });
     const j = await r.json().catch(() => ({}));
     if (j.url) window.location.href = j.url;
     else { setMsg(j.error || "Something went wrong. Try again in a moment."); setBusy(false); }
@@ -42,6 +43,10 @@ export default function BasketPage() {
               </li>
             ))}
           </ul>
+          <label className="mt-10 grid gap-1">
+            <span className="font-mono text-[12px] uppercase tracking-[0.16em]">A note for us (optional)</span>
+            <textarea value={note} onChange={(e) => setNote(e.target.value)} rows={2} maxLength={500} placeholder="A gift message, or something about the delivery" className="w-full resize-y border-0 border-b border-ink bg-transparent px-0 py-3 text-[18px] placeholder:text-ink placeholder:italic focus:outline-none" />
+          </label>
           <button onClick={checkout} disabled={busy} className="mt-10 bg-ink px-8 py-4 text-[16px] text-bone hover:bg-clay transition-colors disabled:bg-paper disabled:text-ink">
             {busy ? "One moment" : "Go to checkout"}
           </button>

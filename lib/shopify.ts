@@ -54,14 +54,24 @@ export async function offers(handles: string[]): Promise<Record<string, Offer>> 
 }
 
 /** A Shopify cart for these lines; returns the checkout URL. */
-export async function checkoutUrl(lines: { handle: string; qty: number }[]): Promise<string | null> {
+export async function checkoutUrl(lines: { handle: string; qty: number }[], note = ""): Promise<string | null> {
   const o = await offers(lines.map((l) => l.handle));
   const cartLines = lines.filter((l) => o[l.handle]?.available).map((l) => ({ merchandiseId: o[l.handle].variantId, quantity: Math.max(1, Math.min(20, l.qty)) }));
   if (!cartLines.length) return null;
   const data = await sf<any>(
-    `mutation($lines: [CartLineInput!]!) { cartCreate(input: { lines: $lines }) { cart { checkoutUrl } userErrors { message } } }`,
-    { lines: cartLines },
+    `mutation($lines: [CartLineInput!]!, $note: String) { cartCreate(input: { lines: $lines, note: $note }) { cart { checkoutUrl } userErrors { message } } }`,
+    { lines: cartLines, note: note || null },
     0,
   );
   return data?.cartCreate?.cart?.checkoutUrl ?? null;
+}
+
+/** "150 DH / 100 g" from a formatted price and a weight like "50 g". */
+export function perHundred(price?: string, weight?: string): string | null {
+  if (!price || !weight) return null;
+  const p = parseFloat(price.replace(/[^\d.]/g, ""));
+  const g = weight.match(/([\d.]+)\s*g\b/);
+  if (!p || !g) return null;
+  const v = (p / parseFloat(g[1])) * 100;
+  return `${v >= 100 ? Math.round(v) : v.toFixed(0)} DH / 100 g`;
 }

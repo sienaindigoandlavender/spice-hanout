@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { BLENDS, MOMENTS, SHELF, BOX, itemBy } from "@/lib/blends";
 import { WORLD } from "@/lib/world";
 import { entriesForBlend, KIND_ONE } from "@/lib/magazine";
-import { offers } from "@/lib/shopify";
+import { offers, perHundred } from "@/lib/shopify";
 import Label from "@/components/Label";
 import Tin from "@/components/Tin";
 import { AddButton } from "@/components/Basket";
@@ -52,7 +52,7 @@ export default async function BlendPage({ params }: { params: Promise<{ handle: 
           <p className="mt-6 text-[19px] leading-[1.6]">{b.line}</p>
           <div className="mt-8 flex flex-wrap items-center gap-5">
             <AddButton handle={b.handle} available={!!offer?.available} price={offer?.price} />
-            <span className="font-mono text-[13px]">{b.weight}</span>
+            <span className="font-mono text-[13px]">{b.weight}{perHundred(offer?.price, b.weight) && <> · {perHundred(offer?.price, b.weight)}</>}</span>
           </div>
 
           <h2 className="mt-14 border-t border-ink pt-5 font-mono text-[13px] uppercase tracking-[0.14em]">Inside</h2>

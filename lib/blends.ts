@@ -37,6 +37,8 @@ export interface Blend {
   /** the world's blends: where the recipe is from, and its region */
   origin?: string;
   region?: string;
+  /** shop-by-use keys (world blends) */
+  uses?: string[];
 }
 
 export const MOMENTS: { key: Moment; title: string; line: string }[] = [
