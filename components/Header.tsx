@@ -10,6 +10,7 @@ export default function Header() {
           <Link href="/#morning" className="hidden hover:underline underline-offset-4 md:inline">Morning</Link>
           <Link href="/#midday" className="hidden hover:underline underline-offset-4 md:inline">Midday</Link>
           <Link href="/#evening" className="hidden hover:underline underline-offset-4 md:inline">Evening</Link>
+          <Link href="/world" className="hover:underline underline-offset-4">The world</Link>
           <Link href="/magazine" className="hover:underline underline-offset-4">Magazine</Link>
           <Link href="/basket" className="hover:underline underline-offset-4"><BasketCount /></Link>
         </nav>

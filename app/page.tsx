@@ -7,6 +7,8 @@ import HourHero from "@/components/HourHero";
 import EntryCard from "@/components/EntryCard";
 import HourMark from "@/components/HourMark";
 import { AddButton } from "@/components/Basket";
+import { WORLD } from "@/lib/world";
+import WorldCard from "@/components/WorldCard";
 
 export const revalidate = 300;
 
@@ -18,9 +20,10 @@ const AIR: Record<Moment, { bg: string; ink: string; hours: string }> = {
 };
 
 export default async function Home() {
-  const o = await offers([...BLENDS.map((b) => b.handle), BOX.handle]);
+  const o = await offers([...BLENDS.map((b) => b.handle), BOX.handle, "baharat", "garam-masala", "berbere", "jerk"]);
   const prices = Object.fromEntries(Object.entries(o).map(([h, v]) => [h, v.price]));
   const reads = allEntries().slice(0, 4);
+  const travel = ["baharat", "garam-masala", "berbere", "jerk"].map((h) => WORLD.find((b) => b.handle === h)!).filter(Boolean);
   const trio = ["golden-hour", "ras-el-hanout", "sweet-tagine"].map((h) => BLENDS.find((b) => b.handle === h)!);
 
   return (
@@ -90,6 +93,21 @@ export default async function Home() {
             <div className="mt-10 [&_button]:bg-bone [&_button]:text-ink [&_button:hover]:bg-[#D9A21B] [&_span]:border-bone">
               <AddButton handle={BOX.handle} available={!!o[BOX.handle]?.available} price={o[BOX.handle]?.price} />
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-bone">
+        <div className="mx-auto max-w-[1400px] px-4 py-24 md:px-10 md:py-32">
+          <div className="grid gap-4 border-b border-ink pb-8 md:grid-cols-12 md:items-end">
+            <h2 className="font-display text-[48px] leading-[0.95] md:col-span-7 md:text-[80px]">And the <em>world&apos;s blends</em></h2>
+            <div className="md:col-span-4 md:col-start-9 md:text-end">
+              <p className="text-[17px] leading-[1.55]">{WORLD.length} more, from Beirut to Montréal, ground here.</p>
+              <Link href="/world" className="mt-3 inline-block text-[16px] underline underline-offset-4">See them all</Link>
+            </div>
+          </div>
+          <div className="mt-14 grid grid-cols-1 gap-x-6 gap-y-14 sm:grid-cols-2 lg:grid-cols-4">
+            {travel.map((b) => <WorldCard key={b.handle} b={b} price={prices[b.handle]} />)}
           </div>
         </div>
       </section>

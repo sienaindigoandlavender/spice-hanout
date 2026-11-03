@@ -40,11 +40,15 @@ const fmt = (amount: string, currency: string) => {
 export async function offers(handles: string[]): Promise<Record<string, Offer>> {
   const out: Record<string, Offer> = {};
   if (!shopOpen() || !handles.length) return out;
-  const q = handles.map((h, i) => `p${i}: product(handle: ${JSON.stringify(h)}) { handle availableForSale variants(first: 1) { nodes { id availableForSale price { amount currencyCode } } } }`).join("\n");
-  const data = await sf<Record<string, any>>(`{ ${q} }`);
-  for (const p of Object.values(data || {})) {
-    const v = p?.variants?.nodes?.[0];
-    if (p && v) out[p.handle] = { variantId: v.id, price: fmt(v.price.amount, v.price.currencyCode), available: !!(p.availableForSale && v.availableForSale) };
+  // in chunks, so a page with the whole world's shelf stays a light query
+  for (let k = 0; k < handles.length; k += 30) {
+    const chunk = handles.slice(k, k + 30);
+    const q = chunk.map((h, i) => `p${i}: product(handle: ${JSON.stringify(h)}) { handle availableForSale variants(first: 1) { nodes { id availableForSale price { amount currencyCode } } } }`).join("\n");
+    const data = await sf<Record<string, any>>(`{ ${q} }`);
+    for (const p of Object.values(data || {})) {
+      const v = p?.variants?.nodes?.[0];
+      if (p && v) out[p.handle] = { variantId: v.id, price: fmt(v.price.amount, v.price.currencyCode), available: !!(p.availableForSale && v.availableForSale) };
+    }
   }
   return out;
 }

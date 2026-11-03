@@ -32,6 +32,11 @@ export interface Blend {
   use: string[];
   story: string[];
   reading: Reading[];
+  /** lifestyle picture of the blend itself (no pack, no people) */
+  image?: string;
+  /** the world's blends: where the recipe is from, and its region */
+  origin?: string;
+  region?: string;
 }
 
 export const MOMENTS: { key: Moment; title: string; line: string }[] = [
@@ -312,6 +317,8 @@ export const BOX: Blend = {
   reading: [],
 };
 
-/** Everything on the shelf, for the basket and the product pages. */
-export const SHELF: Blend[] = [...BLENDS, BOX];
+/** Everything on the shelf, for the basket and the product pages: the house blends, the box and the world's blends. */
+import { WORLD, houseImage } from "./world";
+for (const b of BLENDS) b.image = b.image ?? houseImage(b.handle);
+export const SHELF: Blend[] = [...BLENDS, BOX, ...WORLD];
 export const itemBy = (handle: string) => SHELF.find((b) => b.handle === handle);

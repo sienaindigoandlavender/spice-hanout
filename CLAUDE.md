@@ -21,6 +21,11 @@ Jacqueline's spice house (3 Nov 2026): spice blends only, not a many-SKU grocery
 - `/labels` (unlinked, noindex): every front and back at real size, 70 × 93 mm, print at 100% on A4.
 - `Tin.tsx` puts the label on a brushed tin. The home opens on `HourHero.tsx`: the sky and the three tins of the hour it is in Marrakech (UTC), and the visitor can walk the day (Morning, Midday, Evening). Each hour's section has its own air (pale gold, bone, dusk).
 
+## The world's blends (3 Nov 2026, copied from Zfriti)
+- Jacqueline: repeat all of Zfriti's spice blends here, with the lifestyle pictures. `lib/world-recipes.ts` (Zfriti's `lib/blends.ts`), `lib/world-notes.ts` (use, weight, price tier), `data/world-shots.json` (one Cloudinary lifestyle picture per blend), mapped into the shelf by `lib/world.ts`. 92 blends (Zfriti's Ras el Hanout and Chermoula stay as the house blends and lend them their pictures; Za'atar's picture also goes to Moroccan Zaatar).
+- All 92 are Shopify products (handle = slug, ACTIVE, Headless, picture attached), priced on Zfriti's tiers: ground 50 g 75 DH, whole/herb 35 g 70 DH, dear 50 g 95 DH, saffron-led 40 g 120 DH.
+- `/world` lists them by region (`WorldCard.tsx`: picture, colour strip, name, origin, price); product pages show the picture with the tin and the back label beside it. The hour mark for a world blend is guessed from what it is for (`momentOf`).
+
 ## Shelf and prices (3 Nov 2026)
 - 10 blends + the box "A Whole Day" (Golden Hour, Ras el Hanout, Sweet Tagine), all ACTIVE and published to the Headless channel in Shopify (MAD).
 - Prices copied from Zfriti's tin ladder (`zfriti/lib/blend-notes.ts`): ground blend 50 g 75 DH, herb 70 DH, dear ingredients (cardamom, rose, saffron pinch) 95 DH, saffron 1 g 95 DH, the box 240 DH. Change prices in Shopify only.
