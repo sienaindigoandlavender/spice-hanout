@@ -148,7 +148,7 @@ export const BLENDS: Blend[] = [
     reading: [],
   },
   {
-    handle: "zaatar",
+    handle: "moroccan-zaatar",
     name: "Moroccan Zaatar",
     arabic: "زعتر",
     moment: "midday",
@@ -193,7 +193,7 @@ export const BLENDS: Blend[] = [
     reading: [],
   },
   {
-    handle: "harissa",
+    handle: "dry-harissa",
     name: "Dry Harissa",
     arabic: "هريسة",
     moment: "midday",
@@ -263,7 +263,7 @@ export const BLENDS: Blend[] = [
     reading: [NCCIH("Chamomile", "chamomile")],
   },
   {
-    handle: "saffron",
+    handle: "taliouine-saffron",
     name: "Taliouine Saffron",
     arabic: "زعفران",
     moment: "evening",
