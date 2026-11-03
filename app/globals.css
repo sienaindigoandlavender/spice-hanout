@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Spice Hanout: bone and ink, and the colour of each blend. Calm, never loud.
+   House rules: square corners, no grey text, underline fields, no visible scrollbars. */
+@theme {
+  --color-bone: #F4F0E8;
+  --color-paper: #EBE5D9;
+  --color-ink: #1A1714;
+  --color-clay: #8A4B2A;
+  --font-display: "Bodoni Moda Variable", Georgia, serif;
+  --font-sans: "DM Sans Variable", system-ui, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, monospace;
+}
+
+*, *::before, *::after { border-radius: 0 !important; }
+.rounded-full { border-radius: 9999px !important; }
+html { scrollbar-width: none; scroll-behavior: smooth; }
+html::-webkit-scrollbar, *::-webkit-scrollbar { display: none; }
+* { scrollbar-width: none; }
+body { background: var(--color-bone); color: var(--color-ink); font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
+::selection { background: #D9A21B; color: #1A1714; }
+input, textarea, select { background: transparent; border: 0; border-bottom: 1px solid var(--color-ink); }
