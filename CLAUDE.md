@@ -5,7 +5,8 @@ Jacqueline's spice house (3 Nov 2026): spice blends only, not a many-SKU grocery
 ## The idea
 - Spices for the hours of a day: **Morning, Midday, Evening**. The same rhythm as Jacqueline's work on circadian architecture (houses for rest that follow natural rhythms): Spice Hanout is the edible side of that vision.
 - The brand system is meant to carry beyond spices into everything in the house: coffee, the spice boxes in the kitchen, soap, shower gel. Same rules: the hour it belongs to, the colour of what is inside, plain words, sources.
-- Holistic: health, glow, regeneration as the feeling, never as a claim. **No medical or health claims** ("heals", "boosts", "detox", "anti-inflammatory", "good for…"). Tradition is told as tradition. Where serious research exists, list it under Further reading (NIH/NCCIH, peer-reviewed reviews) and say nothing more. Every link is opened and checked before `checked: true` (`lib/blends.ts`); unchecked links stay hidden.
+- Soul food with intention, not health food (Jacqueline, 3 Nov 2026): comfort, flavour and pleasure first, cooked and timed with care. Never diet, clean-eating, superfood or wellness talk.
+- Glow and vitality only as the feeling, never as a claim. **No medical or health claims** ("heals", "boosts", "detox", "anti-inflammatory", "good for…"). Tradition is told as tradition. Where serious research exists, list it under Further reading (NIH/NCCIH, peer-reviewed reviews) and say nothing more. Every link is opened and checked before `checked: true` (`lib/blends.ts`); unchecked links stay hidden.
 - Footer line everywhere: "Food, not medicine. Nothing on this site is medical advice."
 
 ## Look
