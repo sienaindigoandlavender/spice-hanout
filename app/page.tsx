@@ -17,7 +17,7 @@ export default async function Home() {
         </h1>
         <p className="mt-8 max-w-xl text-[18px]">
           One for the first light, one for the long lunch, one for the evening. Ground in Marrakech, the way the souk
-          has always made them, and nothing added that you would not cook with yourself.
+          has always made them. For second helpings, sticky fingers and bread wiped round the plate.
         </p>
         {/* the day as a band of colour: each blend's own colour, in order of the hours */}
         <div className="mt-14 flex h-3 w-full">
@@ -47,13 +47,13 @@ export default async function Home() {
 
       <section className="bg-ink text-bone">
         <div className="mx-auto grid max-w-[1400px] gap-10 px-4 py-20 md:grid-cols-12 md:px-10 md:py-28">
-          <p className="font-mono text-[13px] uppercase tracking-[0.14em] md:col-span-3">How we write</p>
+          <p className="font-mono text-[13px] uppercase tracking-[0.14em] md:col-span-3">What we believe</p>
           <div className="md:col-span-8">
             <p className="font-display text-[32px] leading-[1.15] md:text-[48px]">
-              Food, not medicine. <em>We tell you where it comes from, how it is used, and where to read more.</em>
+              Joy is designed. <em>The jar you reach for, the smell at noon, the second helping nobody needs.</em>
             </p>
             <p className="mt-8 max-w-2xl text-[17px]">
-              No promises on a label. Where serious research has looked at an ingredient, we list the source next to the blend, so you can read it yourself.
+              This is not health food. It is soul food, made with intention: the right spice at the right hour, in a box you love opening. Greed welcome.
             </p>
             <Link href="/notes" className="mt-8 inline-block border-b border-bone pb-1 text-[15px]">Our notes</Link>
           </div>
