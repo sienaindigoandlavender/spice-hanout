@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
-import { BLENDS } from "@/lib/blends";
+import { SHELF } from "@/lib/blends";
+import { KINDS, allEntries } from "@/lib/magazine";
 const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://www.spicehanout.com";
 export default function sitemap(): MetadataRoute.Sitemap {
-  return ["", "/notes", ...BLENDS.map((b) => `/blends/${b.handle}`)].map((p) => ({ url: `${SITE}${p}` }));
+  return ["", "/notes", "/magazine", ...KINDS.map((k) => `/magazine/${k}`), ...SHELF.map((b) => `/blends/${b.handle}`), ...allEntries().map((e) => `/magazine/${e.kind}/${e.slug}`)].map((p) => ({ url: `${SITE}${p}` }));
 }

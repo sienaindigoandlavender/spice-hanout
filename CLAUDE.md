@@ -16,6 +16,17 @@ Jacqueline's spice house (3 Nov 2026): spice blends only, not a many-SKU grocery
 - Colour, yes, but restrained: **each blend has one colour, the colour of the spice itself**, as a full field on its label with a faint grain. Nothing else decorates the label: no patterns, no illustrations (the Zfriti labels were too much). The home page's band of colours is the day, in order.
 - House rules: text never light grey (ink at full strength, smaller never paler); square corners; underline fields; no visible scrollbars; images can't be saved (`PhotoGuard`).
 
+## Shelf and prices (3 Nov 2026)
+- 10 blends + the box "A Whole Day" (Golden Hour, Ras el Hanout, Sweet Tagine), all ACTIVE and published to the Headless channel in Shopify (MAD).
+- Prices copied from Zfriti's tin ladder (`zfriti/lib/blend-notes.ts`): ground blend 50 g 75 DH, herb 70 DH, dear ingredients (cardamom, rose, saffron pinch) 95 DH, saffron 1 g 95 DH, the box 240 DH. Change prices in Shopify only.
+
+## The Magazine (3 Nov 2026, built like Zfriti's)
+- Markdown in `content/magazine/{stories,spices,recipes}/<slug>.md`, read by `lib/magazine.ts` (gray-matter + remark). `draft: true` hides a file. Quote every frontmatter string (colons break YAML).
+- Frontmatter: title, dek (also the meta description), date, tint (page colour = the food; ink is chosen automatically), arabic, darija, hour, blends (handles: shown "From the shelf" with Add buttons, and the entry appears on those blend pages), related; recipes add serves, time, ingredients, steps.
+- Link with `[[slug]]` or `[[slug|words]]`: resolves to an entry or a blend.
+- Pages `/magazine`, `/magazine/[kind]`, `/magazine/[kind]/[slug]`; JSON-LD Article or Recipe + BreadcrumbList; all in the sitemap.
+- Voice: soul food with intention; open on someone mid-action; specific facts; no invented named people or quotes; no health or weight talk. Recipes need Zahra's check.
+
 ## Code
 - `lib/blends.ts` — every blend: handle (= Shopify product handle), name, Arabic/Darija name, moment, colour, ink, weight, line, inside, use, story, reading.
 - `lib/shopify.ts` — Storefront API (`SHOPIFY_STORE_DOMAIN`, `SHOPIFY_STOREFRONT_TOKEN`). Prices and stock come only from Shopify; without the env vars every blend shows "Soon".

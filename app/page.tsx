@@ -1,12 +1,17 @@
 import Link from "next/link";
-import { BLENDS, MOMENTS, blendsFor } from "@/lib/blends";
+import { BLENDS, BOX, MOMENTS, blendsFor } from "@/lib/blends";
+import { allEntries } from "@/lib/magazine";
+import EntryCard from "@/components/EntryCard";
+import { AddButton } from "@/components/Basket";
 import { offers } from "@/lib/shopify";
 import Label from "@/components/Label";
 
 export const revalidate = 300;
 
 export default async function Home() {
-  const o = await offers(BLENDS.map((b) => b.handle));
+  const o = await offers([...BLENDS.map((b) => b.handle), BOX.handle]);
+  const reads = allEntries().slice(0, 4);
+  const trio = ["golden-hour", "ras-el-hanout", "sweet-tagine"].map((h) => BLENDS.find((b) => b.handle === h)!);
   return (
     <>
       {/* The idea, in one breath */}
@@ -44,6 +49,35 @@ export default async function Home() {
           </div>
         </section>
       ))}
+
+      {/* The box: the whole day in three tins */}
+      <section id="box" className="scroll-mt-16 border-t border-ink">
+        <div className="mx-auto grid max-w-[1400px] gap-10 px-4 py-20 md:grid-cols-12 md:items-center md:px-10 md:py-28">
+          <div className="grid grid-cols-3 gap-3 md:col-span-7">
+            {trio.map((b) => <Link key={b.handle} href={`/blends/${b.handle}`} className="block"><Label b={b} /></Link>)}
+          </div>
+          <div className="md:col-span-4 md:col-start-9">
+            <p className="font-mono text-[13px] uppercase tracking-[0.14em]">The box</p>
+            <h2 className="mt-4 font-display text-[44px] leading-none md:text-[60px]"><Link href={`/blends/${BOX.handle}`} className="hover:italic">{BOX.name}</Link></h2>
+            <p className="mt-6 text-[17px]">{BOX.line}</p>
+            <div className="mt-8"><AddButton handle={BOX.handle} available={!!o[BOX.handle]?.available} price={o[BOX.handle]?.price} /></div>
+          </div>
+        </div>
+      </section>
+
+      {reads.length > 0 && (
+        <section className="bg-paper">
+          <div className="mx-auto max-w-[1400px] px-4 py-20 md:px-10 md:py-28">
+            <div className="grid gap-4 md:grid-cols-12 md:items-end">
+              <h2 className="font-display text-[44px] leading-none md:col-span-5 md:text-[64px]">From the <em>magazine</em></h2>
+              <Link href="/magazine" className="text-[15px] underline underline-offset-4 md:col-span-3 md:col-start-10 md:text-end">Read the magazine</Link>
+            </div>
+            <div className="mt-12 grid grid-cols-2 gap-x-5 gap-y-12 md:grid-cols-4">
+              {reads.map((e) => <EntryCard key={e.slug} e={e} />)}
+            </div>
+          </div>
+        </section>
+      )}
 
       <section className="bg-ink text-bone">
         <div className="mx-auto grid max-w-[1400px] gap-10 px-4 py-20 md:grid-cols-12 md:px-10 md:py-28">

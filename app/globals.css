@@ -20,3 +20,14 @@ html::-webkit-scrollbar, *::-webkit-scrollbar { display: none; }
 body { background: var(--color-bone); color: var(--color-ink); font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
 ::selection { background: #D9A21B; color: #1A1714; }
 input, textarea, select { background: transparent; border: 0; border-bottom: 1px solid var(--color-ink); }
+
+/* Magazine body: EB-Garamond-free, Bodoni for the drop cap, DM Sans at a reading size. Ink at full strength. */
+.mag { font-size: 19px; line-height: 1.75; }
+.mag > p:first-of-type::first-letter { font-family: var(--font-display); float: left; font-size: 4.6em; line-height: 0.82; padding-inline-end: 0.08em; margin-top: 0.06em; }
+.mag p { margin: 0 0 1.3em; }
+.mag h2 { font-family: var(--font-display); font-size: 34px; line-height: 1.1; margin: 1.6em 0 0.6em; }
+.mag ul { list-style: disc; padding-inline-start: 1.3em; margin: 0 0 1.3em; }
+.mag li { margin: 0.3em 0; }
+.mag blockquote { font-family: var(--font-display); font-style: italic; font-size: 28px; line-height: 1.25; border-inline-start: 2px solid var(--color-ink); padding-inline-start: 1em; margin: 1.6em 0; }
+.mag a, .mag-inline a { text-decoration: underline; text-underline-offset: 4px; }
+.mag a:hover, .mag-inline a:hover { color: var(--color-clay); }

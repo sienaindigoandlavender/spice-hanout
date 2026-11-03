@@ -286,3 +286,32 @@ export const BLENDS: Blend[] = [
 
 export const blendBy = (handle: string) => BLENDS.find((b) => b.handle === handle);
 export const blendsFor = (m: Moment) => BLENDS.filter((b) => b.moment === m);
+
+/** The box: three tins, one for each hour. Sold as its own Shopify product (handle a-whole-day). */
+export const BOX: Blend = {
+  handle: "a-whole-day",
+  name: "A Whole Day",
+  moment: "midday",
+  colour: "#1A1714",
+  ink: "#F4F0E8",
+  weight: "3 tins",
+  line: "Golden Hour for the morning, Ras el Hanout for the long lunch, Sweet Tagine for the evening. One box, the whole day.",
+  inside: [
+    { name: "Golden Hour", note: "50 g, for the first light" },
+    { name: "Ras el Hanout", note: "50 g, for the long lunch" },
+    { name: "Sweet Tagine", note: "50 g, for the evening" },
+  ],
+  use: [
+    "Keep it by the stove and let the hour choose the tin.",
+    "Give it to someone who cooks for other people.",
+  ],
+  story: [
+    "A Moroccan kitchen runs on three meals that never look alike: a warm, slow breakfast, a long lunch that is the real meal of the day, and something lighter and sweeter as the evening comes.",
+    "The box is that day, in three tins. Open one in the morning and the kitchen smells of turmeric and ginger; by noon it is cumin and rose; by dusk, cinnamon and saffron.",
+  ],
+  reading: [],
+};
+
+/** Everything on the shelf, for the basket and the product pages. */
+export const SHELF: Blend[] = [...BLENDS, BOX];
+export const itemBy = (handle: string) => SHELF.find((b) => b.handle === handle);

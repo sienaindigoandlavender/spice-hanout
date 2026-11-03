@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { BLENDS } from "@/lib/blends";
+import { SHELF } from "@/lib/blends";
 import { useBasket } from "@/components/Basket";
 import Label from "@/components/Label";
 
@@ -9,7 +9,7 @@ export default function BasketPage() {
   const { lines, set } = useBasket();
   const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState("");
-  const items = lines.map((l) => ({ ...l, b: BLENDS.find((x) => x.handle === l.handle) })).filter((x) => x.b);
+  const items = lines.map((l) => ({ ...l, b: SHELF.find((x) => x.handle === l.handle) })).filter((x) => x.b);
 
   async function checkout() {
     setBusy(true); setMsg("");
