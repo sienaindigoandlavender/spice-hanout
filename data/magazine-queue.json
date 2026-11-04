@@ -1,7 +1,6 @@
 {
   "_how": "The editor writes one piece a day: stories on even days, spices on odd days, from the top of each list, then moves it to done with the date. Jacqueline or the editor may add, reorder or cut. Recipes are never written by the editor: they go to recipes_for_zahra.",
   "stories": [
-    { "slug": "the-friday-couscous", "angle": "Friday lunch after the mosque: the one meal of the week everyone comes home for. The seven vegetables, the steaming in three rounds, the broth with ras el hanout. Blends: ras-el-hanout." },
     { "slug": "tea-poured-from-a-height", "angle": "Atay: the pour from a height for the foam, three glasses, the mint and the sugar, the host's honour. Spiced coffee as the morning's other cup. Blends: spiced-coffee, dusk." },
     { "slug": "the-spice-souk-at-dusk", "angle": "Rahba Kedima and the spice stalls of Marrakech as the light goes: pyramids of powder, the seller's nose, what people actually buy. Blends: ras-el-hanout, a-whole-day." },
     { "slug": "why-we-eat-from-one-dish", "angle": "The shared dish: eating from your own triangle of the tagine, the host pushing the best pieces to the guest, why one plate makes people slow down. Blends: chermoula, sweet-tagine." },
@@ -10,7 +9,8 @@
     { "slug": "the-tanjia-of-the-bachelors", "angle": "Tanjia: the clay urn of meat cooked all day in the ashes of a hammam furnace, Marrakech's dish of working men. Blends: ras-el-hanout, taliouine-saffron." },
     { "slug": "breakfast-is-slow-here", "angle": "Msemen, baghrir, olive oil, amlou, mint tea: a Moroccan breakfast as a lesson in not hurrying. Blends: golden-hour, spiced-coffee." },
     { "slug": "the-wedding-feast", "angle": "Pastilla, mechoui, lamb with prunes: the dishes of celebration and the women who cook them for two hundred. Blends: sweet-tagine, kemoun." },
-    { "slug": "the-hour-after-lunch", "angle": "The pause after the long lunch: shutters half closed, the house slows, tea again. Why the middle of the day belongs to rest. Blends: dusk, a-whole-day." }
+    { "slug": "the-hour-after-lunch", "angle": "The pause after the long lunch: shutters half closed, the house slows, tea again. Why the middle of the day belongs to rest. Blends: dusk, a-whole-day." },
+    { "slug": "the-keskas-and-the-potter", "angle": "The couscoussier and the gsaa: who makes the clay and wooden tools of couscous (UNESCO names potters and family workshops), and why a dish needs its own pot. Blends: ras-el-hanout." }
   ],
   "spices": [
     { "slug": "ginger", "angle": "Skinjbir: dried ground ginger in tagines, harira and ras el hanout, warmer than fresh. Blends: golden-hour, sweet-tagine, ras-el-hanout." },
@@ -30,7 +30,8 @@
     "Harira for a cold evening (Golden Hour)",
     "Zaatar bread with olive oil (Moroccan Zaatar)",
     "Spiced coffee the Moroccan way (Spiced Coffee)",
-    "Seffa, sweet vermicelli with cinnamon and almonds (Sweet Tagine)"
+    "Seffa, sweet vermicelli with cinnamon and almonds (Sweet Tagine)",
+    "Friday couscous with seven vegetables and tfaya (Ras el Hanout, Sweet Tagine)"
   ],
   "done": [
     { "slug": "the-second-helping", "kind": "stories", "date": "2026-11-03" },
@@ -43,6 +44,7 @@
     { "slug": "turmeric", "kind": "spices", "date": "2026-11-03" },
     { "slug": "golden-hour-eggs", "kind": "recipes", "date": "2026-11-03" },
     { "slug": "kemoun-carrots", "kind": "recipes", "date": "2026-11-03" },
-    { "slug": "lamb-and-prune-tagine", "kind": "recipes", "date": "2026-11-03" }
+    { "slug": "lamb-and-prune-tagine", "kind": "recipes", "date": "2026-11-03" },
+    { "slug": "the-friday-couscous", "kind": "stories", "date": "2026-11-04" }
   ]
 }

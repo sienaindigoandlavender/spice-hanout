@@ -6,7 +6,7 @@ tint: "#A0522D"
 arabic: قرفة
 darija: qarfa
 blends: [sweet-tagine, spiced-coffee, golden-hour]
-related: [three-meals, saffron, lamb-and-prune-tagine]
+related: [three-meals, saffron, lamb-and-prune-tagine, the-friday-couscous]
 ---
 The pastilla comes out of the oven, crisp and golden, and the last thing the cook does before it goes to the table is the most dramatic: a snowfall of icing sugar, then cinnamon drawn across it in a lattice of thin brown lines.
 
