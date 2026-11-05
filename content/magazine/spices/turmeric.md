@@ -6,7 +6,7 @@ tint: "#E0A800"
 arabic: خرقوم
 darija: kharkoum
 blends: [golden-hour, ras-el-hanout]
-related: [three-meals, golden-hour-eggs, cumin]
+related: [three-meals, golden-hour-eggs, cumin, ginger]
 ---
 Every evening in Ramadan, pots of harira simmer across Morocco, and they are all the same warm yellow. That colour is turmeric.
 
