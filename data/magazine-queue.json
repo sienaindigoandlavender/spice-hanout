@@ -1,7 +1,6 @@
 {
   "_how": "The editor writes one piece a day: stories on even days, spices on odd days, from the top of each list, then moves it to done with the date. Jacqueline or the editor may add, reorder or cut. Recipes are never written by the editor: they go to recipes_for_zahra.",
   "stories": [
-    { "slug": "tea-poured-from-a-height", "angle": "Atay: the pour from a height for the foam, three glasses, the mint and the sugar, the host's honour. Spiced coffee as the morning's other cup. Blends: spiced-coffee, dusk." },
     { "slug": "the-spice-souk-at-dusk", "angle": "Rahba Kedima and the spice stalls of Marrakech as the light goes: pyramids of powder, the seller's nose, what people actually buy. Blends: ras-el-hanout, a-whole-day." },
     { "slug": "why-we-eat-from-one-dish", "angle": "The shared dish: eating from your own triangle of the tagine, the host pushing the best pieces to the guest, why one plate makes people slow down. Blends: chermoula, sweet-tagine." },
     { "slug": "the-ramadan-table", "angle": "Breaking the fast at sunset: dates, harira, chebakia, the silence then the noise. The rhythm of a whole month of eating at the sun's hours. Blends: golden-hour, sweet-tagine." },
@@ -10,7 +9,8 @@
     { "slug": "breakfast-is-slow-here", "angle": "Msemen, baghrir, olive oil, amlou, mint tea: a Moroccan breakfast as a lesson in not hurrying. Blends: golden-hour, spiced-coffee." },
     { "slug": "the-wedding-feast", "angle": "Pastilla, mechoui, lamb with prunes: the dishes of celebration and the women who cook them for two hundred. Blends: sweet-tagine, kemoun." },
     { "slug": "the-hour-after-lunch", "angle": "The pause after the long lunch: shutters half closed, the house slows, tea again. Why the middle of the day belongs to rest. Blends: dusk, a-whole-day." },
-    { "slug": "the-keskas-and-the-potter", "angle": "The couscoussier and the gsaa: who makes the clay and wooden tools of couscous (UNESCO names potters and family workshops), and why a dish needs its own pot. Blends: ras-el-hanout." }
+    { "slug": "the-keskas-and-the-potter", "angle": "The couscoussier and the gsaa: who makes the clay and wooden tools of couscous (UNESCO names potters and family workshops), and why a dish needs its own pot. Blends: ras-el-hanout." },
+    { "slug": "the-sugar-loaf", "angle": "The white cone of sugar: the little hammer, the lidded box, two loaves carried to a marriage proposal, and Morocco's Saadian sugar mills of the sixteenth century. Blends: sweet-tagine, spiced-coffee." }
   ],
   "spices": [
     { "slug": "paprika", "angle": "Tahmira: sweet and smoked paprika, the red of chermoula and the kefta; Morocco's own pepper growing. Blends: chermoula, dry-harissa." },
@@ -46,6 +46,7 @@
     { "slug": "kemoun-carrots", "kind": "recipes", "date": "2026-11-03" },
     { "slug": "lamb-and-prune-tagine", "kind": "recipes", "date": "2026-11-03" },
     { "slug": "the-friday-couscous", "kind": "stories", "date": "2026-11-04" },
-    { "slug": "ginger", "kind": "spices", "date": "2026-11-05" }
+    { "slug": "ginger", "kind": "spices", "date": "2026-11-05" },
+    { "slug": "tea-poured-from-a-height", "kind": "stories", "date": "2026-11-06" }
   ]
 }
