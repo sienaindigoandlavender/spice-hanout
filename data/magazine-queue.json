@@ -13,7 +13,6 @@
     { "slug": "the-sugar-loaf", "angle": "The white cone of sugar: the little hammer, the lidded box, two loaves carried to a marriage proposal, and Morocco's Saadian sugar mills of the sixteenth century. Blends: sweet-tagine, spiced-coffee." }
   ],
   "spices": [
-    { "slug": "paprika", "angle": "Tahmira: sweet and smoked paprika, the red of chermoula and the kefta; Morocco's own pepper growing. Blends: chermoula, dry-harissa." },
     { "slug": "coriander-seed", "angle": "Kasbour seed: citrusy, nutty, the quiet half of so many blends. Blends: chermoula, ras-el-hanout, dry-harissa." },
     { "slug": "cardamom", "angle": "Qaqula: the green pod in coffee and in a good ras el hanout; how it travelled from India. Blends: spiced-coffee, golden-hour, ras-el-hanout." },
     { "slug": "wild-thyme", "angle": "Zaatar in Morocco: the wild thyme and oregano of the mountains, in tea, on bread with oil. Blends: moroccan-zaatar." },
@@ -22,7 +21,8 @@
     { "slug": "lemon-verbena", "angle": "Louiza: the herb Moroccans steep after dinner. Blends: dusk." },
     { "slug": "black-pepper", "angle": "Elbezar: the pepper that travelled the caravan routes, in nearly every Moroccan blend. Blends: golden-hour, ras-el-hanout." },
     { "slug": "nutmeg-and-mace", "angle": "Gouza and bsibsa: one fruit, two spices, sweet tagines and ras el hanout. Blends: sweet-tagine, spiced-coffee, ras-el-hanout." },
-    { "slug": "white-pepper", "angle": "White pepper beside the black: the softer heat in a pale chicken tagine with olives and lemon, no dark flecks in the sauce. Blends: golden-hour, ras-el-hanout." }
+    { "slug": "white-pepper", "angle": "White pepper beside the black: the softer heat in a pale chicken tagine with olives and lemon, no dark flecks in the sauce. Blends: golden-hour, ras-el-hanout." },
+    { "slug": "caraway", "angle": "Karwiya: the seed in harissa, cousin of cumin and often mistaken for it. Blends: dry-harissa." }
   ],
   "recipes_for_zahra": [
     "Chicken with preserved lemon and olives (Ras el Hanout, Golden Hour)",
@@ -31,7 +31,8 @@
     "Zaatar bread with olive oil (Moroccan Zaatar)",
     "Spiced coffee the Moroccan way (Spiced Coffee)",
     "Seffa, sweet vermicelli with cinnamon and almonds (Sweet Tagine)",
-    "Friday couscous with seven vegetables and tfaya (Ras el Hanout, Sweet Tagine)"
+    "Friday couscous with seven vegetables and tfaya (Ras el Hanout, Sweet Tagine)",
+    "Lentils in red paprika oil (Chermoula)"
   ],
   "done": [
     { "slug": "the-second-helping", "kind": "stories", "date": "2026-11-03" },
@@ -47,6 +48,7 @@
     { "slug": "lamb-and-prune-tagine", "kind": "recipes", "date": "2026-11-03" },
     { "slug": "the-friday-couscous", "kind": "stories", "date": "2026-11-04" },
     { "slug": "ginger", "kind": "spices", "date": "2026-11-05" },
-    { "slug": "tea-poured-from-a-height", "kind": "stories", "date": "2026-11-06" }
+    { "slug": "tea-poured-from-a-height", "kind": "stories", "date": "2026-11-06" },
+    { "slug": "paprika", "kind": "spices", "date": "2026-11-07" }
   ]
 }
