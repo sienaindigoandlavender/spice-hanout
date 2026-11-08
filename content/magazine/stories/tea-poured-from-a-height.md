@@ -7,7 +7,7 @@ arabic: "أتاي"
 darija: "atay"
 hour: "midday"
 blends: [spiced-coffee, dusk]
-related: [the-second-helping, bread-round-the-plate, three-meals]
+related: [the-second-helping, bread-round-the-plate, three-meals, the-spice-souk-at-dusk]
 ---
 The host has the pot in one hand and a glass in the other, and he is in no hurry at all. A pinch of green pellets went in first, rinsed with a splash of boiling water that he swirled and threw away. Then a fist of mint, stalks and all, then sugar knocked off a white cone with a little hammer, then the water. Now he pours a glass, looks at it, and tips it straight back into the pot. He does it again. On the third go he lifts the pot as high as his arm will reach and the tea falls in a long thin rope, landing in the glass with a cap of foam. Only then is it ready.
 

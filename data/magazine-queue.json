@@ -1,7 +1,6 @@
 {
   "_how": "The editor writes one piece a day: stories on even days, spices on odd days, from the top of each list, then moves it to done with the date. Jacqueline or the editor may add, reorder or cut. Recipes are never written by the editor: they go to recipes_for_zahra.",
   "stories": [
-    { "slug": "the-spice-souk-at-dusk", "angle": "Rahba Kedima and the spice stalls of Marrakech as the light goes: pyramids of powder, the seller's nose, what people actually buy. Blends: ras-el-hanout, a-whole-day." },
     { "slug": "why-we-eat-from-one-dish", "angle": "The shared dish: eating from your own triangle of the tagine, the host pushing the best pieces to the guest, why one plate makes people slow down. Blends: chermoula, sweet-tagine." },
     { "slug": "the-ramadan-table", "angle": "Breaking the fast at sunset: dates, harira, chebakia, the silence then the noise. The rhythm of a whole month of eating at the sun's hours. Blends: golden-hour, sweet-tagine." },
     { "slug": "the-communal-oven", "angle": "The neighbourhood ferran: children carrying trays of dough through the derb, each loaf marked, the baker who knows every family's bread. Blends: kemoun, moroccan-zaatar." },
@@ -10,7 +9,8 @@
     { "slug": "the-wedding-feast", "angle": "Pastilla, mechoui, lamb with prunes: the dishes of celebration and the women who cook them for two hundred. Blends: sweet-tagine, kemoun." },
     { "slug": "the-hour-after-lunch", "angle": "The pause after the long lunch: shutters half closed, the house slows, tea again. Why the middle of the day belongs to rest. Blends: dusk, a-whole-day." },
     { "slug": "the-keskas-and-the-potter", "angle": "The couscoussier and the gsaa: who makes the clay and wooden tools of couscous (UNESCO names potters and family workshops), and why a dish needs its own pot. Blends: ras-el-hanout." },
-    { "slug": "the-sugar-loaf", "angle": "The white cone of sugar: the little hammer, the lidded box, two loaves carried to a marriage proposal, and Morocco's Saadian sugar mills of the sixteenth century. Blends: sweet-tagine, spiced-coffee." }
+    { "slug": "the-sugar-loaf", "angle": "The white cone of sugar: the little hammer, the lidded box, two loaves carried to a marriage proposal, and Morocco's Saadian sugar mills of the sixteenth century. Blends: sweet-tagine, spiced-coffee." },
+    { "slug": "the-attar", "angle": "The attar of Souk el-Attarine: one seller for scent and spice together, rose buds beside cloves, amber beside cinnamon; the word that gave English attar of roses. Blends: ras-el-hanout, dusk." }
   ],
   "spices": [
     { "slug": "coriander-seed", "angle": "Kasbour seed: citrusy, nutty, the quiet half of so many blends. Blends: chermoula, ras-el-hanout, dry-harissa." },
@@ -49,6 +49,7 @@
     { "slug": "the-friday-couscous", "kind": "stories", "date": "2026-11-04" },
     { "slug": "ginger", "kind": "spices", "date": "2026-11-05" },
     { "slug": "tea-poured-from-a-height", "kind": "stories", "date": "2026-11-06" },
-    { "slug": "paprika", "kind": "spices", "date": "2026-11-07" }
+    { "slug": "paprika", "kind": "spices", "date": "2026-11-07" },
+    { "slug": "the-spice-souk-at-dusk", "kind": "stories", "date": "2026-11-08" }
   ]
 }

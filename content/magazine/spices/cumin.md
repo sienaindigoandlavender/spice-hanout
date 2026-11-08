@@ -6,7 +6,7 @@ tint: "#9C6B3C"
 arabic: كمون
 darija: kamoun
 blends: [kemoun, ras-el-hanout, chermoula]
-related: [kemoun-carrots, bread-round-the-plate, head-of-the-shop, paprika]
+related: [kemoun-carrots, bread-round-the-plate, head-of-the-shop, paprika, the-spice-souk-at-dusk]
 ---
 At a grill stall in Jemaa el-Fna there are two small dishes on every table: one of salt, one of ground cumin. Nobody explains them. You dip.
 
