@@ -10,10 +10,10 @@
     { "slug": "the-hour-after-lunch", "angle": "The pause after the long lunch: shutters half closed, the house slows, tea again. Why the middle of the day belongs to rest. Blends: dusk, a-whole-day." },
     { "slug": "the-keskas-and-the-potter", "angle": "The couscoussier and the gsaa: who makes the clay and wooden tools of couscous (UNESCO names potters and family workshops), and why a dish needs its own pot. Blends: ras-el-hanout." },
     { "slug": "the-sugar-loaf", "angle": "The white cone of sugar: the little hammer, the lidded box, two loaves carried to a marriage proposal, and Morocco's Saadian sugar mills of the sixteenth century. Blends: sweet-tagine, spiced-coffee." },
-    { "slug": "the-attar", "angle": "The attar of Souk el-Attarine: one seller for scent and spice together, rose buds beside cloves, amber beside cinnamon; the word that gave English attar of roses. Blends: ras-el-hanout, dusk." }
+    { "slug": "the-attar", "angle": "The attar of Souk el-Attarine: one seller for scent and spice together, rose buds beside cloves, amber beside cinnamon; the word that gave English attar of roses. Blends: ras-el-hanout, dusk." },
+    { "slug": "khlii-on-the-roof", "angle": "Khlii: strips of meat rubbed with garlic, cumin and coriander, dried in the sun on medina roofs, kept under fat, fried with eggs on a winter morning. Blends: kemoun, chermoula." }
   ],
   "spices": [
-    { "slug": "coriander-seed", "angle": "Kasbour seed: citrusy, nutty, the quiet half of so many blends. Blends: chermoula, ras-el-hanout, dry-harissa." },
     { "slug": "cardamom", "angle": "Qaqula: the green pod in coffee and in a good ras el hanout; how it travelled from India. Blends: spiced-coffee, golden-hour, ras-el-hanout." },
     { "slug": "wild-thyme", "angle": "Zaatar in Morocco: the wild thyme and oregano of the mountains, in tea, on bread with oil. Blends: moroccan-zaatar." },
     { "slug": "chilli", "angle": "Dried red chilli and harissa in Morocco: gentler than Tunisia, served on the side. Blends: dry-harissa, chermoula." },
@@ -32,7 +32,8 @@
     "Spiced coffee the Moroccan way (Spiced Coffee)",
     "Seffa, sweet vermicelli with cinnamon and almonds (Sweet Tagine)",
     "Friday couscous with seven vegetables and tfaya (Ras el Hanout, Sweet Tagine)",
-    "Lentils in red paprika oil (Chermoula)"
+    "Lentils in red paprika oil (Chermoula)",
+    "Eggs fried with khlii (Kemoun, Chermoula)"
   ],
   "done": [
     { "slug": "the-second-helping", "kind": "stories", "date": "2026-11-03" },
@@ -50,6 +51,7 @@
     { "slug": "ginger", "kind": "spices", "date": "2026-11-05" },
     { "slug": "tea-poured-from-a-height", "kind": "stories", "date": "2026-11-06" },
     { "slug": "paprika", "kind": "spices", "date": "2026-11-07" },
-    { "slug": "the-spice-souk-at-dusk", "kind": "stories", "date": "2026-11-08" }
+    { "slug": "the-spice-souk-at-dusk", "kind": "stories", "date": "2026-11-08" },
+    { "slug": "coriander-seed", "kind": "spices", "date": "2026-11-09" }
   ]
 }

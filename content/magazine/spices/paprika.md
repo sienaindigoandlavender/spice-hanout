@@ -7,7 +7,7 @@ arabic: "تحميرة"
 darija: "tahmira"
 hour: "midday"
 blends: [chermoula, dry-harissa]
-related: [cumin, ginger, saffron]
+related: [cumin, ginger, saffron, coriander-seed]
 ---
 In the fields around Oulad Ali Loued, on the plain below Beni Mellal, a farmer walks between peppers spread on the bare ground and turns them over with his hands, one long red stripe after another. It is autumn in Tadla. From late summer into the winter the flat land here goes red, and the air smells faintly sweet and dusty, like a spice jar left open in the sun.
 
