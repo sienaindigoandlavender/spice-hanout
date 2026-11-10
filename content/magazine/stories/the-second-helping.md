@@ -4,7 +4,7 @@ dek: "Nobody at a Moroccan table asks if you are still hungry. They just fill th
 date: 2026-11-03
 tint: "#D9A21B"
 blends: [a-whole-day, ras-el-hanout]
-related: [three-meals, bread-round-the-plate, ras-el-hanout, the-friday-couscous, tea-poured-from-a-height]
+related: [three-meals, bread-round-the-plate, ras-el-hanout, the-friday-couscous, tea-poured-from-a-height, why-we-eat-from-one-dish]
 ---
 The tagine is already half gone when the lid comes back on. Someone tears another piece of bread, leans in, and pulls the best of the meat towards the guest. You said you were full. Nobody heard you.
 

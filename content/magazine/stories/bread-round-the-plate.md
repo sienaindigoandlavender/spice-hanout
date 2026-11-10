@@ -4,7 +4,7 @@ dek: "In Morocco the bread is the fork, the spoon and the last course."
 date: 2026-11-01
 tint: "#C9A27A"
 blends: [chermoula, kemoun]
-related: [the-second-helping, cumin, kemoun-carrots, tea-poured-from-a-height]
+related: [the-second-helping, cumin, kemoun-carrots, tea-poured-from-a-height, why-we-eat-from-one-dish]
 ---
 The round loaf arrives warm, wrapped in a cloth, and is torn rather than cut. Everyone gets a piece. Nobody gets a fork.
 

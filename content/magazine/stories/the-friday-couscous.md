@@ -7,7 +7,7 @@ arabic: "كسكس"
 darija: "seksu"
 hour: "midday"
 blends: [ras-el-hanout, sweet-tagine]
-related: [the-second-helping, bread-round-the-plate, three-meals]
+related: [the-second-helping, bread-round-the-plate, three-meals, why-we-eat-from-one-dish]
 ---
 By ten on a Friday morning the grain has already been through the steam once. A woman tips it out of the top of the pot into a wide wooden dish, sprinkles it with cold salted water, and works it between her palms until every lump falls apart. Then it goes back up over the broth. Then out again. Three times, in many kitchens, before anyone calls it ready.
 
