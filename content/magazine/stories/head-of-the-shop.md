@@ -4,7 +4,7 @@ dek: "Ras el hanout means \"head of the shop\". Every merchant's version is diff
 date: 2026-10-31
 tint: "#8A4B2A"
 blends: [ras-el-hanout]
-related: [ras-el-hanout, cumin, cinnamon, the-spice-souk-at-dusk]
+related: [ras-el-hanout, cumin, cinnamon, the-spice-souk-at-dusk, cardamom]
 ---
 Ask three spice sellers in the medina for ras el hanout and you will get three different powders, three different colours and three speeches about why the other two are wrong.
 

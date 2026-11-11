@@ -7,7 +7,7 @@ arabic: "زنجبيل"
 darija: "skinjbir"
 hour: "morning"
 blends: [golden-hour, sweet-tagine, ras-el-hanout]
-related: [turmeric, cinnamon, the-friday-couscous]
+related: [turmeric, cinnamon, the-friday-couscous, cardamom]
 ---
 The onions are already soft in the oil when the cook reaches for the little jars. Coriander, white pepper, turmeric, a few threads of saffron, and a good spoonful of pale brown powder that smells of warm wood and lemon peel. The chicken goes in, then the olives and the preserved lemon, and the lid comes down for the afternoon.
 
