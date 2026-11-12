@@ -4,7 +4,7 @@ dek: "A Moroccan day has three tempos. Our blends follow them."
 date: 2026-11-02
 tint: "#E3C98F"
 blends: [golden-hour, ras-el-hanout, sweet-tagine]
-related: [the-second-helping, turmeric, cinnamon]
+related: [the-second-helping, turmeric, cinnamon, the-ramadan-table]
 ---
 The first pot of the day is tea, and it is already on the stove before anyone is properly awake. Bread from yesterday is warmed on the flat pan, olive oil goes into a saucer, and somebody cracks eggs into a small clay dish with a pinch of cumin and salt. Breakfast in Morocco is slow and warm, and it is never in a hurry to end.
 
