@@ -14,7 +14,6 @@
     { "slug": "the-nafar", "angle": "The nafar: the Ramadan horn player who walks the old medina at 3am to wake people for the pre-dawn meal, thanked with sugar and coins, now rare outside the old cities (Africanews 2024). Blends: spiced-coffee, golden-hour." }
   ],
   "spices": [
-    { "slug": "wild-thyme", "angle": "Zaatar in Morocco: the wild thyme and oregano of the mountains, in tea, on bread with oil. Blends: moroccan-zaatar." },
     { "slug": "chilli", "angle": "Dried red chilli and harissa in Morocco: gentler than Tunisia, served on the side. Blends: dry-harissa, chermoula." },
     { "slug": "rose", "angle": "Dried damask rose buds from the Valley of Roses near Kelaat M'Gouna, in ras el hanout and pastries. Blends: ras-el-hanout." },
     { "slug": "lemon-verbena", "angle": "Louiza: the herb Moroccans steep after dinner. Blends: dusk." },
@@ -22,7 +21,8 @@
     { "slug": "nutmeg-and-mace", "angle": "Gouza and bsibsa: one fruit, two spices, sweet tagines and ras el hanout. Blends: sweet-tagine, spiced-coffee, ras-el-hanout." },
     { "slug": "white-pepper", "angle": "White pepper beside the black: the softer heat in a pale chicken tagine with olives and lemon, no dark flecks in the sauce. Blends: golden-hour, ras-el-hanout." },
     { "slug": "caraway", "angle": "Karwiya: the seed in harissa, cousin of cumin and often mistaken for it. Blends: dry-harissa." },
-    { "slug": "clove", "angle": "Qronfel: the nail-shaped bud in ras el hanout and spiced coffee, and the Moluccan islands it came from. Blends: spiced-coffee, ras-el-hanout." }
+    { "slug": "clove", "angle": "Qronfel: the nail-shaped bud in ras el hanout and spiced coffee, and the Moluccan islands it came from. Blends: spiced-coffee, ras-el-hanout." },
+    { "slug": "oregano", "angle": "Origanum compactum, the other zaatar of the Middle Atlas and the Rif, now also grown by cooperatives near Khenifra; how it differs from thyme in the pot. Blends: moroccan-zaatar." }
   ],
   "recipes_for_zahra": [
     "Chicken with preserved lemon and olives (Ras el Hanout, Golden Hour)",
@@ -57,6 +57,7 @@
     { "slug": "coriander-seed", "kind": "spices", "date": "2026-11-09" },
     { "slug": "why-we-eat-from-one-dish", "kind": "stories", "date": "2026-11-10" },
     { "slug": "cardamom", "kind": "spices", "date": "2026-11-11" },
-    { "slug": "the-ramadan-table", "kind": "stories", "date": "2026-11-12" }
+    { "slug": "the-ramadan-table", "kind": "stories", "date": "2026-11-12" },
+    { "slug": "wild-thyme", "kind": "spices", "date": "2026-11-13" }
   ]
 }
