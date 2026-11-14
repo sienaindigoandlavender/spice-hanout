@@ -1,7 +1,6 @@
 {
   "_how": "The editor writes one piece a day: stories on even days, spices on odd days, from the top of each list, then moves it to done with the date. Jacqueline or the editor may add, reorder or cut. Recipes are never written by the editor: they go to recipes_for_zahra.",
   "stories": [
-    { "slug": "the-communal-oven", "angle": "The neighbourhood ferran: children carrying trays of dough through the derb, each loaf marked, the baker who knows every family's bread. Blends: kemoun, moroccan-zaatar." },
     { "slug": "the-tanjia-of-the-bachelors", "angle": "Tanjia: the clay urn of meat cooked all day in the ashes of a hammam furnace, Marrakech's dish of working men. Blends: ras-el-hanout, taliouine-saffron." },
     { "slug": "breakfast-is-slow-here", "angle": "Msemen, baghrir, olive oil, amlou, mint tea: a Moroccan breakfast as a lesson in not hurrying. Blends: golden-hour, spiced-coffee." },
     { "slug": "the-wedding-feast", "angle": "Pastilla, mechoui, lamb with prunes: the dishes of celebration and the women who cook them for two hundred. Blends: sweet-tagine, kemoun." },
@@ -35,7 +34,8 @@
     "Lentils in red paprika oil (Chermoula)",
     "Eggs fried with khlii (Kemoun, Chermoula)",
     "Cardamom rice pudding with orange blossom (Spiced Coffee, Golden Hour)",
-    "Chebakia for the Ramadan table (Sweet Tagine)"
+    "Chebakia for the Ramadan table (Sweet Tagine)",
+    "Khobz with sesame and fennel seed for a weekday lunch (Moroccan Zaatar)"
   ],
   "done": [
     { "slug": "the-second-helping", "kind": "stories", "date": "2026-11-03" },
@@ -58,6 +58,7 @@
     { "slug": "why-we-eat-from-one-dish", "kind": "stories", "date": "2026-11-10" },
     { "slug": "cardamom", "kind": "spices", "date": "2026-11-11" },
     { "slug": "the-ramadan-table", "kind": "stories", "date": "2026-11-12" },
-    { "slug": "wild-thyme", "kind": "spices", "date": "2026-11-13" }
+    { "slug": "wild-thyme", "kind": "spices", "date": "2026-11-13" },
+    { "slug": "the-communal-oven", "kind": "stories", "date": "2026-11-14" }
   ]
 }
