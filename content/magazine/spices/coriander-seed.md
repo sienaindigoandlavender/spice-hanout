@@ -7,7 +7,7 @@ arabic: "كزبرة"
 darija: "kasbour"
 hour: "midday"
 blends: [chermoula, ras-el-hanout, dry-harissa]
-related: [cumin, paprika, the-spice-souk-at-dusk]
+related: [cumin, paprika, the-spice-souk-at-dusk, chilli]
 ---
 On a flat roof in the medina, a woman lays strips of beef over a line in the sun, one after another, like washing. The night before she rubbed every piece with garlic, cumin and crushed coriander seed. In a few days the meat will be dark and leathery, cooked slowly in oil and fat, and packed into a jar under more fat. This is *khlii*, and when it finally meets a pan of eggs, the whole kitchen smells of it.
 

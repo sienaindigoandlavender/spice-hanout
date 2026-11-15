@@ -13,7 +13,6 @@
     { "slug": "the-nafar", "angle": "The nafar: the Ramadan horn player who walks the old medina at 3am to wake people for the pre-dawn meal, thanked with sugar and coins, now rare outside the old cities (Africanews 2024). Blends: spiced-coffee, golden-hour." }
   ],
   "spices": [
-    { "slug": "chilli", "angle": "Dried red chilli and harissa in Morocco: gentler than Tunisia, served on the side. Blends: dry-harissa, chermoula." },
     { "slug": "rose", "angle": "Dried damask rose buds from the Valley of Roses near Kelaat M'Gouna, in ras el hanout and pastries. Blends: ras-el-hanout." },
     { "slug": "lemon-verbena", "angle": "Louiza: the herb Moroccans steep after dinner. Blends: dusk." },
     { "slug": "black-pepper", "angle": "Elbezar: the pepper that travelled the caravan routes, in nearly every Moroccan blend. Blends: golden-hour, ras-el-hanout." },
@@ -35,7 +34,8 @@
     "Eggs fried with khlii (Kemoun, Chermoula)",
     "Cardamom rice pudding with orange blossom (Spiced Coffee, Golden Hour)",
     "Chebakia for the Ramadan table (Sweet Tagine)",
-    "Khobz with sesame and fennel seed for a weekday lunch (Moroccan Zaatar)"
+    "Khobz with sesame and fennel seed for a weekday lunch (Moroccan Zaatar)",
+    "Oil harissa for the table, from the dry blend (Dry Harissa)"
   ],
   "done": [
     { "slug": "the-second-helping", "kind": "stories", "date": "2026-11-03" },
@@ -59,6 +59,7 @@
     { "slug": "cardamom", "kind": "spices", "date": "2026-11-11" },
     { "slug": "the-ramadan-table", "kind": "stories", "date": "2026-11-12" },
     { "slug": "wild-thyme", "kind": "spices", "date": "2026-11-13" },
-    { "slug": "the-communal-oven", "kind": "stories", "date": "2026-11-14" }
+    { "slug": "the-communal-oven", "kind": "stories", "date": "2026-11-14" },
+    { "slug": "chilli", "kind": "spices", "date": "2026-11-15" }
   ]
 }
