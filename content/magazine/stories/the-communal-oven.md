@@ -6,7 +6,7 @@ tint: "#B9874E"
 darija: "ferran"
 hour: "midday"
 blends: [moroccan-zaatar, kemoun]
-related: [bread-round-the-plate, three-meals, wild-thyme]
+related: [bread-round-the-plate, three-meals, wild-thyme, the-tanjia-of-the-bachelors]
 ---
 The boy has the tray balanced on one hand and the cloth slipping off it with every step. Under the cloth are five round loaves, risen since breakfast, still soft enough to take a fingerprint. He turns left at the fountain, ducks under a beam, and follows the smell of woodsmoke down the derb to a low doorway with a black mouth of fire at the back. He hands the tray over without a word. He will be back in under an hour.
 
