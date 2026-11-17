@@ -7,7 +7,7 @@ arabic: "الرحبة القديمة"
 darija: "rahba qdima"
 hour: "evening"
 blends: [ras-el-hanout, a-whole-day, kemoun]
-related: [head-of-the-shop, cumin, tea-poured-from-a-height]
+related: [head-of-the-shop, cumin, tea-poured-from-a-height, rose]
 ---
 The spice seller has been sitting on the same stool since morning, and now, with the sun gone behind the roofs, he finally stands up. A woman in a house dress and slippers wants cumin. He sinks a tin scoop into the sack, tips it onto the brass pan of his scale, takes a pinch back off with his fingers, then adds it again because she is a regular. The cumin goes into a cone of paper, the top is folded down twice, and she is gone into the crowd before the scale has stopped swinging.
 

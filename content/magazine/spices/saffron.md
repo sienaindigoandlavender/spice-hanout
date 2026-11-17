@@ -6,7 +6,7 @@ tint: "#C8341E"
 arabic: زعفران
 darija: zafrane
 blends: [taliouine-saffron, sweet-tagine]
-related: [three-meals, lamb-and-prune-tagine, cinnamon, the-tanjia-of-the-bachelors]
+related: [three-meals, lamb-and-prune-tagine, cinnamon, the-tanjia-of-the-bachelors, rose]
 ---
 Before dawn in Taliouine, families walk the fields bent double, picking purple crocus flowers into baskets. They have a few hours. Once the sun opens the petals, the flowers wilt fast and the work gets harder.
 
