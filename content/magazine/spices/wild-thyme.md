@@ -7,7 +7,7 @@ arabic: "زعتر"
 darija: "zaatar"
 hour: "midday"
 blends: [moroccan-zaatar]
-related: [tea-poured-from-a-height, bread-round-the-plate, coriander-seed]
+related: [tea-poured-from-a-height, bread-round-the-plate, coriander-seed, lemon-verbena]
 ---
 A herb seller in the souk lifts a dry grey-green bundle off the pile, rubs it between his palms over the scale, and the whole stall smells of hot hillside. Ask what it is and he will say *zaatar*, which tells you the family and very little else.
 
