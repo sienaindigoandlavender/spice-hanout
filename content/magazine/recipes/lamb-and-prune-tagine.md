@@ -7,7 +7,7 @@ hour: evening
 serves: "4 to 6"
 time: "2 hours 30 minutes"
 blends: [sweet-tagine, ras-el-hanout, taliouine-saffron]
-related: [saffron, cinnamon, head-of-the-shop]
+related: [saffron, cinnamon, head-of-the-shop, the-wedding-feast]
 ingredients:
   - 1.2 kg lamb shoulder, in large pieces
   - 2 onions, grated

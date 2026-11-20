@@ -1,7 +1,6 @@
 {
   "_how": "The editor writes one piece a day: stories on even days, spices on odd days, from the top of each list, then moves it to done with the date. Jacqueline or the editor may add, reorder or cut. Recipes are never written by the editor: they go to recipes_for_zahra.",
   "stories": [
-    { "slug": "the-wedding-feast", "angle": "Pastilla, mechoui, lamb with prunes: the dishes of celebration and the women who cook them for two hundred. Blends: sweet-tagine, kemoun." },
     { "slug": "the-hour-after-lunch", "angle": "The pause after the long lunch: shutters half closed, the house slows, tea again. Why the middle of the day belongs to rest. Blends: dusk, a-whole-day." },
     { "slug": "the-keskas-and-the-potter", "angle": "The couscoussier and the gsaa: who makes the clay and wooden tools of couscous (UNESCO names potters and family workshops), and why a dish needs its own pot. Blends: ras-el-hanout." },
     { "slug": "the-sugar-loaf", "angle": "The white cone of sugar: the little hammer, the lidded box, two loaves carried to a marriage proposal, and Morocco's Saadian sugar mills of the sixteenth century. Blends: sweet-tagine, spiced-coffee." },
@@ -9,7 +8,8 @@
     { "slug": "khlii-on-the-roof", "angle": "Khlii: strips of meat rubbed with garlic, cumin and coriander, dried in the sun on medina roofs, kept under fat, fried with eggs on a winter morning. Blends: kemoun, chermoula." },
     { "slug": "the-ewer-and-the-basin", "angle": "Hand washing at the table: the brass kettle and basin carried round before and after the meal, the towel. Penn Museum holds a Moroccan kettle and basin from the 1898 Williams expedition, noted as used to wash hands at meals. Blends: dusk, sweet-tagine." },
     { "slug": "the-nafar", "angle": "The nafar: the Ramadan horn player who walks the old medina at 3am to wake people for the pre-dawn meal, thanked with sugar and coins, now rare outside the old cities (Africanews 2024). Blends: spiced-coffee, golden-hour." },
-    { "slug": "the-griddle-shop", "angle": "The wardrobe-sized msemen and harcha shops of the medina, usually run by women, a coin or two a square, honey and butter or khlii inside. Blends: golden-hour, kemoun." }
+    { "slug": "the-griddle-shop", "angle": "The wardrobe-sized msemen and harcha shops of the medina, usually run by women, a coin or two a square, honey and butter or khlii inside. Blends: golden-hour, kemoun." },
+    { "slug": "the-gazelle-horns", "angle": "Kaab el ghazal: the almond and rosewater crescents relatives bake weeks before a wedding, and the Almohad-era dough with anise (Yabiladi, 2025). Blends: sweet-tagine." }
   ],
   "spices": [
     { "slug": "black-pepper", "angle": "Elbezar: the pepper that travelled the caravan routes, in nearly every Moroccan blend. Blends: golden-hour, ras-el-hanout." },
@@ -36,7 +36,8 @@
     "Oil harissa for the table, from the dry blend (Dry Harissa)",
     "Tanjia in a low oven: beef shank, preserved lemon, garlic, smen (Kemoun, Taliouine Saffron)",
     "Baghrir with warm honey butter, and amlou on the side (Golden Hour)",
-    "Lemon verbena cream with summer peaches (Dusk)"
+    "Lemon verbena cream with summer peaches (Dusk)",
+    "Kaab el ghazal, gazelle horns with almond and rosewater (Sweet Tagine)"
   ],
   "done": [
     { "slug": "the-second-helping", "kind": "stories", "date": "2026-11-03" },
@@ -65,6 +66,7 @@
     { "slug": "the-tanjia-of-the-bachelors", "kind": "stories", "date": "2026-11-16" },
     { "slug": "rose", "kind": "spices", "date": "2026-11-17" },
     { "slug": "breakfast-is-slow-here", "kind": "stories", "date": "2026-11-18" },
-    { "slug": "lemon-verbena", "kind": "spices", "date": "2026-11-19" }
+    { "slug": "lemon-verbena", "kind": "spices", "date": "2026-11-19" },
+    { "slug": "the-wedding-feast", "kind": "stories", "date": "2026-11-20" }
   ]
 }

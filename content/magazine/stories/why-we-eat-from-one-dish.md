@@ -5,7 +5,7 @@ date: "2026-11-10"
 tint: "#A9532E"
 hour: "midday"
 blends: [chermoula, sweet-tagine]
-related: [the-second-helping, bread-round-the-plate, the-friday-couscous]
+related: [the-second-helping, bread-round-the-plate, the-friday-couscous, the-wedding-feast]
 ---
 The kettle comes round before the food does. A girl of about ten carries it in one hand and a brass basin in the other, and stops at each person in turn. You hold your hands out over the basin, she pours, you rub, she pours again, someone passes a towel. Then she moves on to the next chair, and the next, until everyone at the low round table has wet wrists and is looking at the kitchen door.
 
