@@ -12,13 +12,13 @@
     { "slug": "the-gazelle-horns", "angle": "Kaab el ghazal: the almond and rosewater crescents relatives bake weeks before a wedding, and the Almohad-era dough with anise (Yabiladi, 2025). Blends: sweet-tagine." }
   ],
   "spices": [
-    { "slug": "black-pepper", "angle": "Elbezar: the pepper that travelled the caravan routes, in nearly every Moroccan blend. Blends: golden-hour, ras-el-hanout." },
     { "slug": "nutmeg-and-mace", "angle": "Gouza and bsibsa: one fruit, two spices, sweet tagines and ras el hanout. Blends: sweet-tagine, spiced-coffee, ras-el-hanout." },
     { "slug": "white-pepper", "angle": "White pepper beside the black: the softer heat in a pale chicken tagine with olives and lemon, no dark flecks in the sauce. Blends: golden-hour, ras-el-hanout." },
     { "slug": "caraway", "angle": "Karwiya: the seed in harissa, cousin of cumin and often mistaken for it. Blends: dry-harissa." },
     { "slug": "clove", "angle": "Qronfel: the nail-shaped bud in ras el hanout and spiced coffee, and the Moluccan islands it came from. Blends: spiced-coffee, ras-el-hanout." },
     { "slug": "oregano", "angle": "Origanum compactum, the other zaatar of the Middle Atlas and the Rif, now also grown by cooperatives near Khenifra; how it differs from thyme in the pot. Blends: moroccan-zaatar." },
-    { "slug": "orange-blossom", "angle": "Zhar: bitter orange flowers distilled into the water sprinkled on guests and stirred into pastries and tea. Blends: dusk." }
+    { "slug": "orange-blossom", "angle": "Zhar: bitter orange flowers distilled into the water sprinkled on guests and stirred into pastries and tea. Blends: dusk." },
+    { "slug": "long-pepper", "angle": "The catkin-shaped pepper the Romans prized before black, still a show-off name in a good ras el hanout. Blends: ras-el-hanout." }
   ],
   "recipes_for_zahra": [
     "Chicken with preserved lemon and olives (Ras el Hanout, Golden Hour)",
@@ -67,6 +67,7 @@
     { "slug": "rose", "kind": "spices", "date": "2026-11-17" },
     { "slug": "breakfast-is-slow-here", "kind": "stories", "date": "2026-11-18" },
     { "slug": "lemon-verbena", "kind": "spices", "date": "2026-11-19" },
-    { "slug": "the-wedding-feast", "kind": "stories", "date": "2026-11-20" }
+    { "slug": "the-wedding-feast", "kind": "stories", "date": "2026-11-20" },
+    { "slug": "black-pepper", "kind": "spices", "date": "2026-11-21" }
   ]
 }
