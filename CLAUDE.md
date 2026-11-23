@@ -49,3 +49,5 @@ Jacqueline's spice house (3 Nov 2026): spice blends only, not a many-SKU grocery
 - Basket in localStorage (`components/Basket.tsx`), `/api/checkout` creates a Shopify cart and sends people to Shopify's checkout.
 - `robots.ts` blocks search engines until `NEXT_PUBLIC_INDEXABLE=true`.
 - Spice names in Darija can later link to darija.io.
+
+- Voice (Jacqueline, 23 Nov 2026): light, never pompous. No educating, no lecturing, no sermons. House rule for every site.
