@@ -29,6 +29,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Letters />
           <Footer />
         </BasketProvider>
+        {/* Founder (Jacqueline, 24 Nov 2026): the same Person as on Slow Morocco, Zfriti and Riad di Siena, so search and AI answers name her. */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Organization", "@id": "https://www.spicehanout.com/#organization-founder", "name": "Spice Hanout", "url": "https://www.spicehanout.com", "founder": {"@type": "Person", "@id": "https://www.slowmorocco.com/about#founder", "name": "Jacqueline Malika Ng", "jobTitle": "Founder", "url": "https://www.slowmorocco.com/about#founder"}}) }} />
       </body>
     </html>
   );
