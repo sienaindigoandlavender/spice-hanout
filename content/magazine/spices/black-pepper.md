@@ -7,7 +7,7 @@ arabic: "الإبزار"
 darija: "lebzar"
 hour: "morning"
 blends: [golden-hour, ras-el-hanout, spiced-coffee]
-related: [ginger, turmeric, head-of-the-shop, nutmeg-and-mace]
+related: [ginger, turmeric, head-of-the-shop, nutmeg-and-mace, white-pepper]
 ---
 The cook tips a spoon of turmeric into the oil, then a spoon of ginger, and then, without measuring, a hard twist of black pepper straight from the jar. Three spices, one after another, the way her hands have done it a thousand times. Ask her which one matters most and she will shrug. The pot just tastes wrong without the pepper.
 
