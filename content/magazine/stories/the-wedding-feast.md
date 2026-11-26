@@ -6,7 +6,7 @@ tint: "#C9973F"
 arabic: "عرس"
 hour: "evening"
 blends: [sweet-tagine, kemoun]
-related: [the-second-helping, why-we-eat-from-one-dish, lamb-and-prune-tagine, tea-poured-from-a-height, cinnamon]
+related: [the-second-helping, why-we-eat-from-one-dish, lamb-and-prune-tagine, tea-poured-from-a-height, cinnamon, the-sugar-loaf]
 ---
 An aunt stands at the kitchen table with flour to her elbows, pinching almond paste into little crescents and lining them up on a tray that already holds eighty. Her sister is beside her doing the same. It is three weeks before the wedding and nobody in this family has bought a single biscuit. In Morocco it is the custom for relatives to band together long before the day, baking pastries and cooking ahead so that every guest who walks through the door will find something sweet waiting.
 
