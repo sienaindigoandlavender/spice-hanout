@@ -11,13 +11,13 @@
     { "slug": "the-mills-of-chichaoua", "angle": "The Saadian sugar ruins by the oued Chichaoua and in the Souss around Taroudant: water-driven mills of the late 16th century, eighteen working by 1600, quiet by about 1610 (Rosenberger, Hesperis-Tamuda 2017). Blends: sweet-tagine." }
   ],
   "spices": [
-    { "slug": "caraway", "angle": "Karwiya: the seed in harissa, cousin of cumin and often mistaken for it. Blends: dry-harissa." },
     { "slug": "clove", "angle": "Qronfel: the nail-shaped bud in ras el hanout and spiced coffee, and the Moluccan islands it came from. Blends: spiced-coffee, ras-el-hanout." },
     { "slug": "oregano", "angle": "Origanum compactum, the other zaatar of the Middle Atlas and the Rif, now also grown by cooperatives near Khenifra; how it differs from thyme in the pot. Blends: moroccan-zaatar." },
     { "slug": "orange-blossom", "angle": "Zhar: bitter orange flowers distilled into the water sprinkled on guests and stirred into pastries and tea. Blends: dusk." },
     { "slug": "long-pepper", "angle": "The catkin-shaped pepper the Romans prized before black, still a show-off name in a good ras el hanout. Blends: ras-el-hanout." },
     { "slug": "allspice", "angle": "Allspice in a good ras el hanout: the Caribbean berry that smells of clove, cinnamon and nutmeg at once, and how it reached the souk. Blends: ras-el-hanout." },
-    { "slug": "anise", "angle": "Nafaa: green anise seed in the bread dough, the gazelle horns and the spiced coffee. Blends: spiced-coffee, sweet-tagine." }
+    { "slug": "anise", "angle": "Nafaa: green anise seed in the bread dough, the gazelle horns and the spiced coffee. Blends: spiced-coffee, sweet-tagine." },
+    { "slug": "nigella", "angle": "Sanouj: the black seed scattered over bread and cheese, named after onions and cumin and related to neither. Blends: moroccan-zaatar." }
   ],
   "recipes_for_zahra": [
     "Chicken with preserved lemon and olives (Ras el Hanout, Golden Hour)",
@@ -75,6 +75,7 @@
     { "slug": "nutmeg-and-mace", "kind": "spices", "date": "2026-11-23" },
     { "slug": "the-keskas-and-the-potter", "kind": "stories", "date": "2026-11-24" },
     { "slug": "white-pepper", "kind": "spices", "date": "2026-11-25" },
-    { "slug": "the-sugar-loaf", "kind": "stories", "date": "2026-11-26" }
+    { "slug": "the-sugar-loaf", "kind": "stories", "date": "2026-11-26" },
+    { "slug": "caraway", "kind": "spices", "date": "2026-11-27" }
   ]
 }

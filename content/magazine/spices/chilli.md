@@ -7,7 +7,7 @@ arabic: "فلفلة حارة"
 darija: "felfla harra"
 hour: "midday"
 blends: [dry-harissa, chermoula]
-related: [paprika, coriander-seed, cumin]
+related: [paprika, coriander-seed, cumin, caraway]
 ---
 At the end of a long lunch, someone pushes a saucer of red paste towards the cousin who likes it hot, and the rest of the family carries on eating as before. In many Moroccan homes that is where the fire lives: in a small dish at the side, for whoever wants it, so the tagine itself can stay gentle for the grandmother and the children.
 
