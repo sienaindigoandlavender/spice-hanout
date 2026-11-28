@@ -7,7 +7,7 @@ arabic: "ورد"
 darija: "lward"
 hour: "midday"
 blends: [ras-el-hanout, sweet-tagine]
-related: [the-spice-souk-at-dusk, saffron, cinnamon]
+related: [the-spice-souk-at-dusk, saffron, cinnamon, the-attar]
 ---
 At first light a woman walks the edge of a barley field with a sack slung from her shoulder, snapping off pink flowers with quick fingers. The bushes grow along the borders of the plots, and she works fast, because the sun is coming. Once it is high and hot the petals lose their scent, so the picking starts at dawn and is over in about six hours. By then a good picker has filled her sack many times over, some twenty kilos in a day, and carried it on her head to the weighing station.
 
